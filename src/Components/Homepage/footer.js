@@ -312,7 +312,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <div className="footer-copyright">
-            © {currentYear} ArtGuardian. All rights reserved.
+            © {2024} ArtGuardian. All rights reserved.
           </div>
 
           <div className="footer-badge">
