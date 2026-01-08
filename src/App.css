@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.products a:hover{
+
+  color:chocolate;
+  border-radius: 10px;
+  text-decoration: underline;
+  }
+  .products a:active{
+      color:chocolate;
+  border-radius: 10px;
+  text-decoration: underline;
+  }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+html,body{
+  overflow-x: hidden;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+div{
+  width: 90vh;
+}
+.body{
+  height: max-content;
+  width: max-content;
+}
+@media only screen and (max-width: auto) {
+  div{
+    height: auto;
+    width: auto;
+  }
+  
+}
+.container {
+  display: flex;
+  flex-direction: row; /* or column */
+  justify-content: space-between; /* or other values */
+}
+
+/* Or using CSS Grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+@media screen and (max-width: 768px){
+  .container{
+    padding: 0 3.2rem
+  }
+}

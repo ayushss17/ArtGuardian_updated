@@ -1,0 +1,61 @@
+ .buy-shell{
+    padding: 1.75rem 2rem 2rem;
+    background: radial-gradient(circle at top left, rgba(15, 23, 42, 0.98), rgba(30, 64, 175, 0.9));
+    color: #e5e7eb;
+}
+
+.buy-layout{
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 1.75rem;
+    align-items: flex-start;
+}
+
+.buy-art img{
+    width: 100%;
+    max-height: 260px;
+    border-radius: 1.1rem;
+    object-fit: cover;
+    box-shadow: 0 22px 50px rgba(15, 23, 42, 0.95);
+}
+
+.buy-info h3{
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+}
+
+.buy-meta{
+    font-size: 0.9rem;
+    color: #cbd5f5;
+    margin-bottom: 0.5rem;
+}
+
+.buy-owner{
+    font-size: 0.8rem;
+    color: #9ca3af;
+}
+
+.buy-actions{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+}
+
+.buy-primary{
+    border-radius: 999px;
+    padding: 0.5rem 1.4rem;
+    border: none;
+    background: linear-gradient(135deg, #22d3ee, #a855f7);
+    color: #020617;
+    cursor: pointer;
+}
+
+.buy-secondary{
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid rgba(148, 163, 184, 0.6);
+    background: transparent;
+    color: #e5e7eb;
+    cursor: pointer;
+}
