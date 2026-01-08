@@ -3,7 +3,7 @@ import { GET_PROD_SUCCESS, GET_USER_PRODUCTS_SUCCESS } from "../constants/prodCo
 import { GET_PROD_FAILURE, GET_USER_PRODUCTS_FAILURE } from "../constants/prodConstants";
 
 // Use environment variable for API URL with fallback for development
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:6969";
+const API_URL = process.env.REACT_APP_API_URL;
 
 // Create axios instance with default config
 const api = axios.create({
